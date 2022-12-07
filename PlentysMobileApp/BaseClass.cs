@@ -20,7 +20,7 @@ namespace PlentysMobileApp
             caps.AddAdditionalCapability("deviceName", "My Phone");
             caps.AddAdditionalCapability("udid", "192.168.1.48:35419");
             caps.AddAdditionalCapability("PlatformName", "Android");
-            caps.AddAdditionalCapability("PlatformVersion", "11.1");
+            caps.AddAdditionalCapability("PlatformVersion", "11.0");
             caps.AddAdditionalCapability("appPackage", "com.plentys.pk.android");
             caps.AddAdditionalCapability("appActivity", "com.plentys.pk.android.MainActivity");
             driver = new AndroidDriver<AndroidElement>(new Uri("http://127.0.0.1:4723/wd/hub"), caps);
